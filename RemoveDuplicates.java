@@ -17,8 +17,9 @@ public class RemoveDuplicates {
 			}
 		}
 		for(int i=0;i<split.length;i++) {
+			if(split[i]!="") {
 			result=result+split[i]+" ";	
-		}
+		}}
 		System.out.print(result);
 
 	}
